@@ -1,0 +1,5 @@
+See help: python3 arpSpoofing.py --help , and you can see the info that the script need to execute.
+Set range: ifconfig and the range is ej: 192.162.1.1/24 and the gateway: 192.168.1.1 or 192.168.1.254
+Set: python3 arpSpoofing.py -r 192.162.1.1/24 -g 192.168.1.254
+change in kali linux 0 for 1 in /proc/sys/net/ipv4/ip_forward with nano o gedit for get to be router
+first execute this script an then execute mitm script to sniff packages
